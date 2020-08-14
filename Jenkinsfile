@@ -34,11 +34,5 @@ pipeline {
       }
     }
 
-    stage('send mail') {
-      steps {
-        mail(subject: 'Build completed', body: 'The build is completed', to: 'laszlo@texmac.se')
-      }
-    }
-
   }
 }
