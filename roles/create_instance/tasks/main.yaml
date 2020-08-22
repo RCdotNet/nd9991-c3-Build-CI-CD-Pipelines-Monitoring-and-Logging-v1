@@ -14,7 +14,7 @@
 
 - name: Create EC2 instances
   ec2:
-    key_name: Jenkins_demo
+    key_name: UdacityC3
     instance_type: t2.micro
     image: ami-0a634ae95e11c6f91
     user_data: "{{ USERDATA }}"
