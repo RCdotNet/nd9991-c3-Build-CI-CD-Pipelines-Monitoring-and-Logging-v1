@@ -28,7 +28,7 @@ cat > /var/www/html/index.html << HEREDOC
 <html>
 <body>
 
-<p style="color:blue">blue.</p>
+<p style="color:blue">Blue deployment strategy.</p>
 
 </body>
 </html>
